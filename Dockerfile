@@ -1,4 +1,5 @@
 
+
 FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/ZIYAN-SER/WhatsBixby /root/WhatsBixby
@@ -9,5 +10,7 @@ RUN npm install
 RUN git clone https://github.com/ZIYAN-SER/media
 
 CMD ["node", "bot.js"]
+
+
 
 
